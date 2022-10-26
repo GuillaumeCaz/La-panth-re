@@ -17,7 +17,19 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+/*Modifications */
+.paragraphe_important{
+    font-size: 25px;
+    font-weight: bold;
+}
+.paragraphe_citation{
+    font-size:20px;
+    font-style: italic;
+}
+.paragraphe_anotation{
+    font-size: 22px;
+    font-weight: light;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -741,6 +753,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    
 }
 
 .portfolio-row {
@@ -890,6 +903,15 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .portfolio-row{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .portfolio-thumb {
+        margin: 40px auto 30px auto;
+        max-width: 320px;
+        
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
